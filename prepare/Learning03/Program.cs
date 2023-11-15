@@ -4,6 +4,12 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Learning03 World!");
+        Fraction newFraction = new Fraction(5, 10);
+        Console.WriteLine(newFraction.GetFractionString());
+        Console.WriteLine(newFraction.GetDecimalValue());
+        newFraction.SetBottom(20);
+        Console.WriteLine(newFraction.GetFractionString());
+        Console.WriteLine(newFraction.GetDecimalValue());
+        newFraction.GetTop();
     }
 }
