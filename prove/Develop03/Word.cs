@@ -22,21 +22,12 @@ public class Word
 
     public bool IsHidden()
     {
-        int textLength = _text.Length;
-        string underscoredWord = "";
-
-        for (int i = 0; i < textLength; i++)
-            {
-                underscoredWord += "_";
-            }
-
-        if (underscoredWord == _text)
+        if (_isHidden == true)
         {
-            _isHidden = true;
             return _isHidden;
         }
-        else{
-            _isHidden = false;
+        else
+        {
             return _isHidden;
         }
     }
