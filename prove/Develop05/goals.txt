@@ -1,4 +1,0 @@
-250
-SimpleGoal::test simpmle::testing testing simple::100::True
-EternalGoal::test eternally::tesitng dsakfl::50::False
-ChecklistGoal::checklist thing::goooooal::33::True::1::3::3
